@@ -6,7 +6,6 @@ export const createPlatform = async ({
   mentor_questions,
   image_url,
   landing_page_url,
-  email_templates,
   title
 }: Platform): Promise<{
   statusCode: number
@@ -21,7 +20,6 @@ export const createPlatform = async ({
       mentor_questions,
       image_url,
       landing_page_url,
-      email_templates,
       title
     )
 
